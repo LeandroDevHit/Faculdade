@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0%;
+}
+.cards {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    margin: 0 auto; 
+    max-width: 950px;
+    
+}
+.plano-basico, .plano-prof, .plano-plus{  
+    width: 280px; 
+    height: 360px;
+    border-radius: 25px; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+h1, h2 {
+    text-align: center; 
+
+}
+.back-black {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.back-blue {
+    background-color: rgb(52, 167, 175);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+}
+.back-gray {
+    background-color: rgb(226, 225, 225);
+    padding: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.botao {
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px; 
+    text-align: center;
+    padding: 5px;
+}
+button {
+    background: linear-gradient(#007BFF, #2968ab);
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-size: 15px;
+}
+p {
+    text-align: center;
+    margin: 0%;
+}
+.mes {
+    font-size: small;
+}
+.carrinho {
+    width: 15px;
+    margin-left: 7px;
+    
+}
+ul {
+    margin-left: 10px;
+}
+
+
+
